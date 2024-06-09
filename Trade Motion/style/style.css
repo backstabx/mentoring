@@ -1,0 +1,320 @@
+*
+{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #FFFFFF;
+    width: 1920px;
+    height: 743px;
+    top: -387px;
+    left: -574px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+header
+{
+    width: 1440px;
+    height: 183px;
+    left: 240px;
+}
+
+.top
+{
+    display: flex; 
+    width: 1440px;
+    height: 116px;
+    padding: 35px 0px;
+    gap: 125px;
+}
+
+.logo_search_container
+{
+    display: flex;
+    width: 856.91px;
+    height: 46px;
+    gap: 100px;
+}
+
+.logo_img
+{
+    width: 276.91px;
+    height: 44px;
+}
+
+.search_div
+{
+    display: flex;
+    width: 480px;
+    height: 46px;
+    padding: 11px 12px 11px 20px;
+    position: relative;
+    align-items: center;
+    background-color: #F2F3F6;
+}
+
+.search_div input[type="text"]
+{
+    width: 480px;
+    height: 46px;
+    border: none;
+    background-color: #F2F3F6;
+    outline: none;
+    color: #3D3B3A;
+}
+
+.search_button
+{
+    gap: 10px;
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #F2F3F6;
+}
+
+.search_img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24px;
+    height: 24px;
+}
+
+.user_menu
+{
+    display: flex;
+    width: 458px;
+    height: 46px;
+    gap: 49px;
+}
+
+.icons
+{
+    display: flex;
+    width: 223px;
+    height: 46px;
+}
+
+.cart_info
+{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 46px;
+    gap: 10px;
+}
+
+.price
+{
+    text-wrap: nowrap;
+}
+
+.cart_info_span
+{
+    display: flex;
+}
+
+.quantity
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 0px #2B2A29 solid;
+    border-radius: 50%;
+    background-color: #2B2A29;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    left: -15px;
+}
+
+.shopping_cart_icon, .favorites_icon, .user_icon
+{
+    width: 46px;
+    height: 46px;
+}
+
+.user
+{
+    display: flex;
+    width: 186px;
+    height: 46px;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 66px;
+    gap: 318px;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+    width: 724px;
+    height: 66px;
+    gap: 30px;
+    margin: 0;
+}
+
+.categories
+{
+    width: 255px;
+    height: 24px;
+    margin: 0;
+}
+
+.categories a
+{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #3D3B3A;
+}
+
+.categories a p
+{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.vertical_line
+{
+    width: 1px;
+    background-color: #eaeaea;
+    height: 66px;
+    margin: 0;
+}
+
+.nav_categories
+{
+    display: flex;
+    width: 288px;
+    height: 24px;
+    gap: 35px;
+    margin: 0;
+}
+
+.nav_categories a
+{
+    text-decoration: none;
+    color: #3D3B3A;
+}
+
+.contact
+{
+    display: flex;
+    align-items: center;
+    width: 398px;
+    height: 24px;
+    gap: 35px;
+}
+
+.email, .phone
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider
+{
+    width: 1920px;
+    height: 560px;
+    top: 183px;
+    background-image: url(../images/slider_bg1.png);
+}
+
+.slider_textbox
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 285px;
+    left: 243px;
+    width: 514px;
+    height: 355px;
+    color: #FFFFFF;
+    font-family: Barlow;
+    text-align: left;
+    gap: 25px;
+}
+
+.slider_header
+{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.slider_text
+{
+    width: 513px;
+    height: 64px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.slider_button
+{
+    background: #00A0E3;
+    width: 201px;
+    height: 48px;
+    padding: 16px 26px;
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+}
+
+.slider_dots
+{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    width: 56px;
+    height: 12px;
+    margin: 0;
+}
+
+.dot, .dot_active
+{
+    height: 12px;
+    width: 12px;
+    border: 1px #00A0E3 solid;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_active
+{
+    background-color: #00A0E3;
+}
