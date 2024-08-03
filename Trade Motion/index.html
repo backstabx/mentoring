@@ -18,15 +18,22 @@
                 </a>
             </div>
             <div class="search_bar">
+                <a href="javascript:void(0);" class="moblie_menu" onclick="mobile_menu_toggle()">
+                    <img class="mobile_menu_icon" src="images/categories_menu.png" alt="categories menu icon">
+                </a>
                 <input type="text" placeholder="Wyszukaj">
                 <button class="search_button" type="submit">
                     <img src="images/search_icon.png" alt="Search icon">
                 </button>
             </div>
             <div class="user_menu">
+                
                 <div class="user_menu_cart">
+                    <a href="javascript:void(0);" class="user_moblie_menu" onclick="mobile_menu_toggle()">
+                        <img class="user_mobile_menu_icon" src="images/categories_menu.png" alt="categories menu icon">
+                    </a>
                     <span class="cart_price">354,00 PLN</span>
-                    <a href="#">
+                    <a href="#" class="cart_icon_container_hyperlink">
                         <span class="cart_icon_container">
                             <img class="shopping_cart_icon" src="images/shoping_cart_icon.png" alt="Shopping cart icon">
                             <span class="user_menu_quantity">2</span>
@@ -51,6 +58,23 @@
             </div>
         </div>
         <nav class="nav">
+            <div class="categories_container_mobile">
+                <ul>
+                    <span>Wybierz kategorię produktów</span>    
+                    <li>
+                        <a href="#">Nowości</a> 
+                    </li>
+                    <li>
+                        <a href="#">Bestsellery</a>
+                    </li>
+                    <li>
+                        <a href="#">Promocje</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
             <div class="categories_container">
                 <span>
                     <img class="categories_menu_icon" src="images/categories_menu.png" alt="categories menu icon">
@@ -100,5 +124,19 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function mobile_menu_toggle() {
+          var x = document.getElementsByClassName("categories_container_mobile");
+          Array.from(x).forEach((e) => {
+            if (e.style.display === "flex") {
+            e.style.display = "none";
+            } else {
+            e.style.display = "flex";
+            }
+        })
+        }
+        </script>
+
 </body>
 </html>
